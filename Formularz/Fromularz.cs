@@ -6,38 +6,54 @@ using System.Threading.Tasks;
 
 namespace Formularz
 {
-    internal class Fromularz
+    public class Fromularz
     {
-        string Imie_i_nazwisko = "";
-        string kierunek = "";
-        string nr_albumu = "";
-        string zakres = "";
-        string tytuł_pracy = "";
+        public string kierunek = "";
+        public string studia_w_zakresie = "";
+        public string tytuł_pracy = "";
     }
 
-    class Formularz_protokołu : Fromularz
+    public class Formularz_protokołu : Fromularz
     {
-
+        public string imie_nazwisko = "";
+        public string data_narodzin = "";
+        public string miejsce_narodzin = "";
+        public string data_egz = "";
+        public string nr_albumu = "";
+        public string profil = "";
+        public string forma = "";
+        public string poziom = "";
+        public string data_rozp = "";
+        public string ocena_pracy = "";
+        public string ocena_mowy = "";
+        public string ocena_pytań = "";
     }
 
-    class Karta_tematu : Fromularz
+    public class Karta_tematu : Fromularz
     {
-
+        public string profil_studiów = "";
+        public string forma_studiów = "";
+        public string poziom_studiów = "";
+        public string student1_imie_album_data = "";
+        public string student2_imie_album_data = "";
+        public string student3_imie_album_data = "";
+        public string student4_imie_album_data = "";
+        public string tytuł_po_ang = "";
+        public string dane_wejściowe = "";
+        public string zakres_pracy = "";
+        public string termin_oddania = "";
+        public string promotor = "";
+        public string jedn_org_promotora = "";
     }
 
-    class Opinia : Fromularz
+    public class Opinia : Fromularz
     {
-
-    }
-
-    class Opinia_Recenzenta : Opinia
-    {
-
-    }
-
-    class Opinia_Promotora : Opinia
-    {
-
+        public string imie_nazwisko = "";
+        public string r_lub_p = "";
+        public string jednostka = "";
+        public string ocena_słowo = "";
+        public string ocena_liczba = "";
+        public string nr_albumu = "";
     }
 }
 
